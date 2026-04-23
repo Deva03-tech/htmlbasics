@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Class Timetable</title>
+
+  <!-- Bootstrap -->
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    body {
+      background-color: #f8f9fa;
+      padding: 20px;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      font-weight: bold;
+    }
+
+    table {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    th {
+      background-color: #343a40;
+      color: white;
+    }
+
+    td {
+      vertical-align: middle;
+      font-size: 14px;
+    }
+
+    .break {
+      writing-mode: vertical-rl;
+      text-orientation: mixed;
+      font-weight: bold;
+      background-color: #dee2e6;
+    }
+  </style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+  <!-- SUBJECT TABLE -->
+
+  <h2>Course Details</h2>
+  <table class="table table-bordered">
+    <thead>
+      <tr>
+        <th>Sub-Code</th>
+        <th>Course Name</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>22MTC15</td><td>Probability and Queueing Theory</td></tr>
+      <tr><td>22CSC11N</td><td>Database Management Systems</td></tr>
+      <tr><td>22ITC08N</td><td>Enterprise Application Development</td></tr>
+      <tr><td>23MBC01</td><td>Engineering Economics & Accountancy</td></tr>
+      <tr><td>22CEM01</td><td>Environmental Science</td></tr>
+
+```
+  <tr><td>22ITE01</td><td>Data Mining</td></tr>
+  <tr><td>22ITE03</td><td>Fundamentals of Cryptography</td></tr>
+  <tr><td>22ITE04</td><td>Modern Mobile Application Development</td></tr>
+
+  <tr><td>22CSC13N</td><td>DBMS Lab</td></tr>
+  <tr><td>22ITC09N</td><td>EAD Lab</td></tr>
+  <tr><td>22ITC07</td><td>Mini Project – I</td></tr>
+</tbody>
+```
+
+  </table>
+
+  <!-- TIMETABLE -->
+
+  <h2>Weekly Timetable</h2>
+  <div class="table-responsive">
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+          <th>Day/Time</th>
+          <th>I<br>9:10-10:10</th>
+          <th>II<br>10:10-11:10</th>
+          <th>III<br>11:15-12:15</th>
+          <th class="break" rowspan="6">LUNCH BREAK</th>
+          <th>IV<br>1:00-2:00</th>
+          <th>V<br>2:00-3:00</th>
+          <th>VI<br>3:05-4:05</th>
+        </tr>
+      </thead>
+
+```
+  <tbody>
+    <tr>
+      <td><b>Monday</b></td>
+      <td>PE-I</td>
+      <td>PQT</td>
+      <td>EAD</td>
+      <td>DBMS</td>
+      <td>EEA</td>
+      <td>SPORTS</td>
+    </tr>
+
+    <tr>
+      <td><b>Tuesday</b></td>
+      <td>DBMS</td>
+      <td>EEA</td>
+      <td>PQT</td>
+      <td colspan="3">DBMS LAB (B1) / EAD LAB (B2)</td>
+    </tr>
+
+    <tr>
+      <td><b>Wednesday</b></td>
+      <td>EAD</td>
+      <td>PE-I</td>
+      <td>LIBRARY</td>
+      <td>EEA</td>
+      <td>DBMS</td>
+      <td>PQT (T)</td>
+    </tr>
+
+    <tr>
+      <td><b>Thursday</b></td>
+      <td colspan="3">DBMS LAB (B2) / EAD LAB (B3)</td>
+      <td>PE-I</td>
+      <td>PQT</td>
+      <td>ES</td>
+    </tr>
+
+    <tr>
+      <td><b>Friday</b></td>
+      <td>ES</td>
+      <td>EAD</td>
+      <td>MENTORING</td>
+      <td colspan="3">DBMS LAB / EAD LAB</td>
+    </tr>
+
+  </tbody>
+</table>
+```
+
+  </div>
+
+</div>
+
+</body>
+</html>
